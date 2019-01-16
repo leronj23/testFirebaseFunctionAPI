@@ -1,0 +1,28 @@
+[debug] [2019-01-13T01:00:05.100Z] ----------------------------------------------------------------------
+[debug] [2019-01-13T01:00:05.105Z] Command:       /usr/local/Cellar/node/11.1.0/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2019-01-13T01:00:05.105Z] CLI Version:   6.2.2
+[debug] [2019-01-13T01:00:05.105Z] Platform:      darwin
+[debug] [2019-01-13T01:00:05.106Z] Node Version:  v11.1.0
+[debug] [2019-01-13T01:00:05.108Z] Time:          Sat Jan 12 2019 20:00:05 GMT-0500 (Eastern Standard Time)
+[debug] [2019-01-13T01:00:05.108Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-13T01:00:05.134Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-13T01:00:05.135Z] > authorizing via signed-in user
+[debug] [2019-01-13T01:00:05.135Z] [iam] checking project testfirebasefunctionapi for permissions ["firebase.projects.get"]
+[debug] [2019-01-13T01:00:05.139Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/testfirebasefunctionapi:testIamPermissions  
+
+[debug] [2019-01-13T01:00:05.381Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-13T01:00:05.383Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/testfirebasefunctionapi  
+ 
+[debug] [2019-01-13T01:00:05.554Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/LeRon/classWork/firebase/testFirebaseFunctionAPI/functions'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-01-13T01:00:06.499Z] Fetching environment
+[debug] [2019-01-13T01:00:06.503Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/865626238870:getServerAppConfig  
+ 
+[debug] [2019-01-13T01:00:06.623Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-13T01:00:06.624Z] Starting @google-cloud/functions-emulator
+[debug] [2019-01-13T01:00:06.662Z] Parsing function triggers
+[info] ✔  functions: getVehicleData: http://localhost:5000/testfirebasefunctionapi/us-central1/getVehicleData
